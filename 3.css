@@ -1,0 +1,13 @@
+body {
+  background-color:#FAF4C0;
+  text-align: center;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+a {
+  margin-bottom: 20px
+}
+#subject{
+  grid-row: 1 / 5;
+}
