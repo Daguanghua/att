@@ -5,7 +5,7 @@
     <meta charset="utf-8" name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, height=device-height">
     <link rel="stylesheet" href="4.css">
     <script>
-      function AttendanceHandler(self){
+      function AttHandler(self){
         if(self.value === 'Attendance 出席 출석'){
           self.style.color = '#FAF4C0';
           self.style.backgroundColor = '#663300';
@@ -16,76 +16,33 @@
           self.value = 'Attendance 出席 출석';
         }
       }
+      var mingzi = ["Kevin 卜相敏 복상민","Jackson 沈宰铉 심재현","Mark 金润英 김윤영","Steaven 朴修贤 박수현","Cameron 尹大伟 윤다울","Nicolas 韩友皙 한우석","Chaek 朴是炯 박시형","Top 俞升建 유승건","Stella 崔瑛恩 최영은","Erin 黄惠璘 황혜린","Emily 朴採林 박채림"];
     </script>
   </head>
   <body>
     <div><img src="image\2-Chinese Speaking.png" width="40%"></div>
     <div><img src="image\3-Middle 1,2.png" width="40%"></div>
-    <button class="name">Kevin 卜相敏 복상민</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Jackson 沈宰铉 심재현</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Mark 金润英 김윤영</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Steaven 朴修贤 박수현</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Cameron 尹大伟 윤다울</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Nicolas 韩友皙 한우석</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Chaek 朴是炯 박시형</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Top 俞升建 유승건</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Stella 崔瑛恩 최영은</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Erin 黄惠璘 황혜린</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Emily 朴採林 박채림</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Alice 艾涟娜 Alena</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Amy 金如音 김여음</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Lily 金艺恩 김예은</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Larry 金俊玗 김준우</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Giana 朴熙殷 박희은</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Mary 沈玟志 심민지</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Lena 李莲池 이연지</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Candy 李彩银 이채은</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Elina 李孝恩 이효은</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">Jerry 崔永卓 최영탁</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
-    <button class="name">John 崔瑶瀚 최요한</button>
-    <input class="attendance" type="button" value="Attendance 出席 출석" onclick="
-      AttendanceHandler(this)">
+    <button class="name"><script>document.write(mingzi[0]);</script></button>
+    <input class="att" type="button" value="Attendance 出席 출석" onclick="AttHandler(this)">
+    <button class="name"><script>document.write(mingzi[1]);</script></button>
+    <input class="att" type="button" value="Attendance 出席 출석" onclick="AttHandler(this)">
+    <button class="name"><script>document.write(mingzi[2]);</script></button>
+    <input class="att" type="button" value="Attendance 出席 출석" onclick="AttHandler(this)">
+    <button class="name"><script>document.write(mingzi[3]);</script></button>
+    <input class="att" type="button" value="Attendance 出席 출석" onclick="AttHandler(this)">
+    <button class="name"><script>document.write(mingzi[4]);</script></button>
+    <input class="att" type="button" value="Attendance 出席 출석" onclick="AttHandler(this)">
+    <button class="name"><script>document.write(mingzi[5]);</script></button>
+    <input class="att" type="button" value="Attendance 出席 출석" onclick="AttHandler(this)">
+    <button class="name"><script>document.write(mingzi[6]);</script></button>
+    <input class="att" type="button" value="Attendance 出席 출석" onclick="AttHandler(this)">
+    <button class="name"><script>document.write(mingzi[7]);</script></button>
+    <input class="att" type="button" value="Attendance 出席 출석" onclick="AttHandler(this)">
+    <button class="name"><script>document.write(mingzi[8]);</script></button>
+    <input class="att" type="button" value="Attendance 出席 출석" onclick="AttHandler(this)">
+    <button class="name"><script>document.write(mingzi[9]);</script></button>
+    <input class="att" type="button" value="Attendance 出席 출석" onclick="AttHandler(this)">
+    <button class="name"><script>document.write(mingzi[10]);</script></button>
+    <input class="att" type="button" value="Attendance 出席 출석" onclick="AttHandler(this)">
   </body>
 </html>
